@@ -3,7 +3,7 @@
     "name": "arowM/elm-classname",
     "summary": "A brief module for custom `class` attributes.",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "Html.Attributes.Classname"
     ],

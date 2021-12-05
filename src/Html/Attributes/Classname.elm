@@ -32,6 +32,17 @@ classWith f =
 
 
 {-| [Mixin](https://package.elm-lang.org/packages/arowM/elm-mixin/latest/) version of `classWith`.
+
+<!--
+
+sample code:
+
+    myClass : String -> Mixin msg
+    myClass =
+        classMixinWith (\name -> "prefix__" ++ name)
+
+-->
+
 -}
 classMixinWith : (String -> String) -> String -> Mixin msg
 classMixinWith f =
